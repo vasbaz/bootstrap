@@ -1,0 +1,25 @@
+{
+  "name": "@vasbaz/bootstrap",
+  "version": "1.0.0",
+  "description": "Spectacular bootstrap framework theme of deep blue color.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasbaz/bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "theme",
+    "blue",
+    "contrast",
+    "themes"
+  ],
+  "author": "Danila Vasilchenko-Bazarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasbaz/bootstrap/issues"
+  },
+  "homepage": "https://github.com/vasbaz/bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}

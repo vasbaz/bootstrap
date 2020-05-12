@@ -1,0 +1,64 @@
+// Variables
+
+$data-table-border-width: $border-width !default;
+$data-table-border-color: $gray-200 !default;
+
+$data-table-main-border-radius: $border-radius-lg !default;
+
+$data-table-sm-card-padding: 3px !default;
+
+
+// Rules
+
+.data-table {
+  display: table;
+  border-radius: $data-table-main-border-radius;
+  overflow: hidden;
+}
+
+.data-table-header-row {
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.data-table-row {
+  display: table-row;
+}
+
+.data-table-cell {
+  display: table-cell;
+  padding: 0.75rem;
+  background-color: $white;
+  border-bottom: $data-table-border-width solid $data-table-border-color;
+}
+
+@include media-breakpoint-down(sm) {
+  .data-table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .data-table-header-row {
+    display: none;
+  }
+
+  .data-table-row {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-bottom: $data-table-sm-card-padding;
+    }
+  }
+
+  .data-table-cell {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-bottom: none;
+
+    &:before {
+      content: attr(data-row);
+      font-weight: bold;
+    }
+  }
+}

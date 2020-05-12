@@ -1,0 +1,93 @@
+$hover-border-color: $gray-400;
+
+// Textual form controls
+
+.form-control:hover:not(:disabled):not(.disabled):not([disabled]):not(:focus) {
+  border-color: $hover-border-color;
+
+  &::placeholder {
+    color: $gray-600;
+  }
+}
+
+// Checkboxes and radios
+
+.custom-control-input {
+  &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
+  &:focus:not(:checked) {
+    & ~ .custom-control-label::before {
+      background-color: $gray-200;
+      border-color: $custom-control-indicator-focus-border-color;
+    }
+  }
+}
+
+// Checkboxes
+
+.custom-checkbox {
+  .custom-control-input {
+    &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
+    &:focus:not(:checked) {
+      & ~ .custom-control-label::after {
+        background-image: escape-svg($custom-checkbox-indicator-icon-checked);
+      }
+    }
+  }
+}
+
+// Radios
+
+.custom-radio {
+  .custom-control-input {
+    &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
+    &:focus:not(:checked) {
+      & ~ .custom-control-label::after {
+        background-image: escape-svg($custom-radio-indicator-icon-checked);
+      }
+    }
+  }
+}
+
+// Switches
+
+.custom-switch {
+  .custom-control-input {
+    &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
+    &:focus:not(:checked) {
+      & ~ .custom-control-label::before {
+        background-color: $hover-border-color;
+      }
+    }
+
+    &[disabled],
+    &:disabled {
+      ~ .custom-control-label::before {
+        background-color: $gray-200;
+      }
+    }
+  }
+
+  .custom-control-label {
+    // Background-color and gradient
+    &::before {
+      background-color: $gray-300;
+      border: none;
+    }
+
+    // Foreground (icon)
+    &::after {
+      background-color: $white;
+    }
+  }
+}
+
+// Select
+
+.custom-select:hover:not(:disabled):not(.disabled):not([disabled]):not(:focus) {
+  border-color: $hover-border-color;
+}
+
+.custom-file-input:hover:not(:disabled):not(.disabled):not([disabled]):not(:focus)
+~ .custom-file-label {
+  border-color: $hover-border-color;
+}

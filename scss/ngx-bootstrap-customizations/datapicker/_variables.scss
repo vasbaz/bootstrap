@@ -1,0 +1,14 @@
+$main-bg: $white !default;
+$custom-range-bg: $gray-100 !default;
+
+$font-color-01: $white !default; // Header
+$font-color-02: $input-color !default; // Weekdays naming
+$font-color-03: $gray-500 !default; // Days of the current month
+
+$highlighted: $gray-100 !default;
+
+$theme-default: $component-active-bg !default;
+
+$theme-list: (
+        'default': $theme-default,
+) !default;

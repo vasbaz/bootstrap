@@ -1,0 +1,6 @@
+.bs-timepicker-field.form-control {
+  &:invalid, &.is-invalid {
+    background: none;
+    padding: .375rem .55rem;
+  }
+}

@@ -1,0 +1,24 @@
+//Custom colors
+
+@import "scss/colors";
+
+//Modify variables
+
+@import "bootstrap-customizations/variables";
+
+//Original bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Custom rules
+
+@import "bootstrap-customizations/custom-forms";
+@import "bootstrap-customizations/navbar";
+
+//Additional components
+
+@import "additional-components/data-table";
+
+//Modify other libraries
+
+@import "ngx-bootstrap-customizations";

@@ -1,0 +1,16 @@
+.bs-datepicker-body table td {
+  &.is-highlighted:not(.disabled):not(.selected) span,
+  span.is-highlighted:not(.disabled):not(.selected) {
+    color: $gray-600;
+  }
+
+  &.is-active-other-month:not(.disabled):not(.selected) span,
+  span.is-active-other-month:not(.disabled):not(.selected) {
+    color: $gray-600;
+  }
+
+  span.is-other-month,
+  &.is-other-month span {
+    color: $gray-300 !important;
+  }
+}

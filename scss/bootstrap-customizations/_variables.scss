@@ -1,0 +1,80 @@
+// Variables
+
+// Color system
+
+$white: $ui-white !default;
+$gray-100: $ui-asphalt-100 !default;
+$gray-200: $ui-asphalt-200 !default;
+$gray-300: $ui-asphalt-300 !default;
+$gray-400: $ui-asphalt-400 !default;
+$gray-500: $ui-asphalt-500 !default;
+$gray-600: $ui-asphalt-600 !default;
+$gray-700: $ui-asphalt-700 !default;
+$gray-800: $ui-asphalt-800 !default;
+$gray-900: $ui-asphalt-900 !default;
+$black: $ui-black !default;
+
+$primary: $ui-carrot-500 !default;
+$secondary: $ui-space-700 !default;
+$success: $ui-forest-500 !default;
+$info: $ui-electric-500 !default;
+$warning: $ui-autumn-500 !default;
+$danger: $ui-berry-500 !default;
+$light: $ui-white !default;
+$dark: $ui-asphalt-900 !default;
+
+// Links
+
+$link-hover-decoration: none !default;
+
+// Components
+
+$component-active-bg: $dark !default;
+
+// Buttons + Forms
+
+$input-btn-focus-width: 0 !default;
+
+// Forms
+
+$input-disabled-bg: $gray-100 !default;
+
+$input-color: $gray-900 !default;
+$input-border-color: $gray-300 !default;
+
+$input-focus-border-color: $gray-900 !default;
+$input-focus-color: $gray-900 !default;
+
+$input-placeholder-color: $gray-500 !default;
+
+$input-group-addon-color: $gray-500 !default;
+$input-group-addon-bg: $gray-100 !default;
+
+$custom-control-cursor: pointer !default;
+
+$custom-control-indicator-size: 1.25rem !default;
+
+$custom-control-indicator-border-color: $gray-300 !default;
+
+$custom-control-label-disabled-color: $gray-600 !default;
+
+$custom-control-indicator-checked-disabled-bg: rgba($component-active-bg, 0.5) !default;
+
+$custom-control-indicator-focus-border-color: $gray-400 !default;
+
+$custom-range-track-height: 0.25rem !default;
+
+$custom-range-thumb-bg: $primary !default;
+$custom-range-thumb-active-bg: lighten($primary, 15%) !default;
+$custom-range-thumb-disabled-bg: $gray-300 !default;
+
+// Navs
+
+$nav-link-padding-y: 0.75rem !default;
+
+// Navbar
+
+$navbar-light-color: $gray-500 !default;
+$navbar-light-hover-color: $gray-600 !default;
+$navbar-light-active-color: $gray-400 !default;
+$navbar-light-disabled-color: $gray-300 !default;
