@@ -1,2 +1,14 @@
-# bootstrap
-Spectacular bootstrap framework theme of deep blue color.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/vasbaz/assets/master/bootstrap/bootstrap-blue-logo.svg" alt="@vasbaz/bootstrap logo" width="72" height="72">
+</p>
+
+<h3 align="center">@vasbaz/bootstrap</h3>
+
+<p align="center">
+  The very same bootstrap framework, just with built-in a spectacular theme of dark navy color.
+  <br>
+  <a href="https://getbootstrap.com/docs/4.3/"><strong>Explore Bootstrap docs »</strong></a>
+  <br>
+  <br>
+
+</p>

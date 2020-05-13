@@ -1,7 +1,14 @@
 {
   "name": "@vasbaz/bootstrap",
   "version": "1.0.0",
-  "description": "Spectacular bootstrap framework theme of deep blue color.",
+  "scripts": {
+    "css": "npm-run-all css-compile css-prefix css-minify",
+    "css-lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 theme-scss/ -o dist/css/",
+    "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/bootstrap.css\"",
+    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css"
+  },
+  "description": "The very same bootstrap framework, just with built-in a spectacular theme of deep blue color.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vasbaz/bootstrap.git"
@@ -9,7 +16,10 @@
   "keywords": [
     "bootstrap",
     "theme",
+    "deep",
     "blue",
+    "dark",
+    "navy",
     "contrast",
     "themes"
   ],
@@ -19,10 +29,14 @@
     "url": "https://github.com/vasbaz/bootstrap/issues"
   },
   "homepage": "https://github.com/vasbaz/bootstrap#readme",
-  "dependencies": {
-    "bootstrap": "^4.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "bootstrap": "4.5.0",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
     "stylelint": "^13.3.3",
     "stylelint-config-twbs-bootstrap": "^2.0.2"
   }
