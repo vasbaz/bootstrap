@@ -21,5 +21,9 @@
   "homepage": "https://github.com/vasbaz/bootstrap#readme",
   "dependencies": {
     "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-twbs-bootstrap": "^2.0.2"
   }
 }

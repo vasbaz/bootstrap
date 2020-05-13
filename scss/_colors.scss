@@ -1,108 +1,108 @@
-$ui-black: #000000;
-$ui-white: #ffffff;
+$ui-black: #000 !default;
+$ui-white: #fff !default;
 
-$ui-asphalt-100: #f2f4f7;
-$ui-asphalt-200: #e6e9ef;
-$ui-asphalt-300: #c7cad3;
-$ui-asphalt-400: #9c9fa9;
-$ui-asphalt-500: #656871;
-$ui-asphalt-600: #4a4e60;
-$ui-asphalt-700: #333850;
-$ui-asphalt-800: #212540;
-$ui-asphalt-900: #141834;
+$ui-asphalt-100: #f2f4f7 !default;
+$ui-asphalt-200: #e6e9ef !default;
+$ui-asphalt-300: #c7cad3 !default;
+$ui-asphalt-400: #9c9fa9 !default;
+$ui-asphalt-500: #656871 !default;
+$ui-asphalt-600: #4a4e60 !default;
+$ui-asphalt-700: #333850 !default;
+$ui-asphalt-800: #212540 !default;
+$ui-asphalt-900: #141834 !default;
 
 $ui-asphalt: (
-        "100": $ui-asphalt-100,
-        "200": $ui-asphalt-200,
-        "300": $ui-asphalt-300,
-        "400": $ui-asphalt-400,
-        "500": $ui-asphalt-500,
-        "600": $ui-asphalt-600,
-        "700": $ui-asphalt-700,
-        "800": $ui-asphalt-800,
-        "900": $ui-asphalt-900
-);
+  "100": $ui-asphalt-100,
+  "200": $ui-asphalt-200,
+  "300": $ui-asphalt-300,
+  "400": $ui-asphalt-400,
+  "500": $ui-asphalt-500,
+  "600": $ui-asphalt-600,
+  "700": $ui-asphalt-700,
+  "800": $ui-asphalt-800,
+  "900": $ui-asphalt-900
+) !default;
 
-$ui-carrot-100: #fbebd6;
-$ui-carrot-200: #f6d3ad;
-$ui-carrot-500: #f26126;
-$ui-carrot-600: #d44921;
-$ui-carrot-700: #c0370b;
+$ui-carrot-100: #fbebd6 !default;
+$ui-carrot-200: #f6d3ad !default;
+$ui-carrot-500: #f26126 !default;
+$ui-carrot-600: #d44921 !default;
+$ui-carrot-700: #c0370b !default;
 
 $ui-carrot: (
-        "100": $ui-carrot-100,
-        "200": $ui-carrot-200,
-        "500": $ui-carrot-500,
-        "600": $ui-carrot-600,
-        "700": $ui-carrot-700
-);
+  "100": $ui-carrot-100,
+  "200": $ui-carrot-200,
+  "500": $ui-carrot-500,
+  "600": $ui-carrot-600,
+  "700": $ui-carrot-700
+) !default;
 
-$ui-space-100: #d8d8f5;
-$ui-space-200: #b3b4ed;
-$ui-space-500: #2c2f7b;
-$ui-space-600: #1f226a;
-$ui-space-700: #151858;
+$ui-space-100: #d8d8f5 !default;
+$ui-space-200: #b3b4ed !default;
+$ui-space-500: #2c2f7b !default;
+$ui-space-600: #1f226a !default;
+$ui-space-700: #151858 !default;
 
 $ui-space: (
-        "100": $ui-space-100,
-        "200": $ui-space-200,
-        "500": $ui-space-500,
-        "600": $ui-space-600,
-        "700": $ui-space-700
-);
+  "100": $ui-space-100,
+  "200": $ui-space-200,
+  "500": $ui-space-500,
+  "600": $ui-space-600,
+  "700": $ui-space-700
+) !default;
 
-$ui-electric-100: #d4f0fc;
-$ui-electric-200: #a9ddfa;
-$ui-electric-500: #3682e6;
-$ui-electric-600: #2865c4;
-$ui-electric-700: #1c4ca4;
+$ui-electric-100: #d4f0fc !default;
+$ui-electric-200: #a9ddfa !default;
+$ui-electric-500: #3682e6 !default;
+$ui-electric-600: #2865c4 !default;
+$ui-electric-700: #1c4ca4 !default;
 
 $ui-electric: (
-        "100": $ui-electric-100,
-        "200": $ui-electric-200,
-        "500": $ui-electric-500,
-        "600": $ui-electric-600,
-        "700": $ui-electric-700
-);
+  "100": $ui-electric-100,
+  "200": $ui-electric-200,
+  "500": $ui-electric-500,
+  "600": $ui-electric-600,
+  "700": $ui-electric-700
+) !default;
 
-$ui-forest-100: #eefbdb;
-$ui-forest-200: #dbf7b8;
-$ui-forest-500: #7dc851;
-$ui-forest-600: #62ac41;
-$ui-forest-700: #4b8f32;
+$ui-forest-100: #eefbdb !default;
+$ui-forest-200: #dbf7b8 !default;
+$ui-forest-500: #7dc851 !default;
+$ui-forest-600: #62ac41 !default;
+$ui-forest-700: #4b8f32 !default;
 
 $ui-forest: (
-        "100": $ui-forest-100,
-        "200": $ui-forest-200,
-        "500": $ui-forest-500,
-        "600": $ui-forest-600,
-        "700": $ui-forest-700
-);
+  "100": $ui-forest-100,
+  "200": $ui-forest-200,
+  "500": $ui-forest-500,
+  "600": $ui-forest-600,
+  "700": $ui-forest-700
+) !default;
 
-$ui-berry-100: #fbe9db;
-$ui-berry-200: #f7ceb7;
-$ui-berry-500: #ec5f4c;
-$ui-berry-600: #ca4039;
-$ui-berry-700: #a93133;
-
-$ui-berry: (
-        "100": $ui-berry-100,
-        "200": $ui-berry-200,
-        "500": $ui-berry-500,
-        "600": $ui-berry-600,
-        "700": $ui-berry-700
-);
-
-$ui-autumn-100: #fdf4cf;
-$ui-autumn-200: #fae6a2;
-$ui-autumn-500: #f0a73b;
-$ui-autumn-600: #cd882f;
-$ui-autumn-700: #ab6c25;
+$ui-berry-100: #fbe9db !default;
+$ui-berry-200: #f7ceb7 !default;
+$ui-berry-500: #ec5f4c !default;
+$ui-berry-600: #ca4039 !default;
+$ui-berry-700: #a93133 !default;
 
 $ui-berry: (
-        "100": $ui-berry-100,
-        "200": $ui-berry-200,
-        "500": $ui-berry-500,
-        "600": $ui-berry-600,
-        "700": $ui-berry-700
-);
+  "100": $ui-berry-100,
+  "200": $ui-berry-200,
+  "500": $ui-berry-500,
+  "600": $ui-berry-600,
+  "700": $ui-berry-700
+) !default;
+
+$ui-autumn-100: #fdf4cf !default;
+$ui-autumn-200: #fae6a2 !default;
+$ui-autumn-500: #f0a73b !default;
+$ui-autumn-600: #cd882f !default;
+$ui-autumn-700: #ab6c25 !default;
+
+$ui-berry: (
+  "100": $ui-berry-100,
+  "200": $ui-berry-200,
+  "500": $ui-berry-500,
+  "600": $ui-berry-600,
+  "700": $ui-berry-700
+) !default;

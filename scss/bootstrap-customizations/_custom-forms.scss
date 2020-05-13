@@ -1,4 +1,4 @@
-$hover-border-color: $gray-400;
+$hover-border-color: $gray-400 !default;
 
 // Textual form controls
 
@@ -87,7 +87,8 @@ $hover-border-color: $gray-400;
   border-color: $hover-border-color;
 }
 
-.custom-file-input:hover:not(:disabled):not(.disabled):not([disabled]):not(:focus)
-~ .custom-file-label {
-  border-color: $hover-border-color;
+.custom-file-input:hover:not(:disabled):not(.disabled):not([disabled]):not(:focus) {
+  ~ .custom-file-label {
+    border-color: $hover-border-color;
+  }
 }

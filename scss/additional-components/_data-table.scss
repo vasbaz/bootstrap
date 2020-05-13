@@ -12,13 +12,13 @@ $data-table-sm-card-padding: 3px !default;
 
 .data-table {
   display: table;
-  border-radius: $data-table-main-border-radius;
   overflow: hidden;
+  @include border-radius($data-table-main-border-radius);
 }
 
 .data-table-header-row {
   display: table-header-group;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 .data-table-row {
@@ -27,7 +27,7 @@ $data-table-sm-card-padding: 3px !default;
 
 .data-table-cell {
   display: table-cell;
-  padding: 0.75rem;
+  padding: .75rem;
   background-color: $white;
   border-bottom: $data-table-border-width solid $data-table-border-color;
 }
@@ -53,12 +53,12 @@ $data-table-sm-card-padding: 3px !default;
 
   .data-table-cell {
     display: block;
-    padding: 0.25rem 0.5rem;
+    padding: .25rem .5rem;
     border-bottom: none;
 
-    &:before {
+    &::before {
+      font-weight: $font-weight-bold;
       content: attr(data-row);
-      font-weight: bold;
     }
   }
 }
