@@ -5,7 +5,7 @@
 <h3 align="center">@vasbaz/bootstrap</h3>
 
 <p align="center">
-  The very same bootstrap framework, just with built-in a spectacular theme of dark navy color.
+  The very same bootstrap framework, just with built-in a spectacular theme of deep blue color.
   <br>
   <a href="https://getbootstrap.com/docs/4.3/"><strong>Explore Bootstrap docs »</strong></a>
   <br>
