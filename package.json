@@ -2,11 +2,13 @@
   "name": "@vasbaz/bootstrap",
   "version": "1.0.0",
   "scripts": {
+    "build": "npm-run-all copy-original-assets css",
     "css": "npm-run-all css-compile css-prefix css-minify",
     "css-lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 theme-scss/ -o dist/css/",
     "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/bootstrap.css\"",
-    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css"
+    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css",
+    "copy-original-assets": "node ./build/copy-original-assets.js"
   },
   "description": "The very same bootstrap framework, just with built-in a spectacular theme of deep blue color.",
   "repository": {
