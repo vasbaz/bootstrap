@@ -12,3 +12,10 @@
   <br>
 
 </p>
+
+
+##Versioning
+
+| @vasbaz/bootstrap  | Original Bootstrap |
+| ------------------ | ------------------ |
+| 1.x.x              | 4.5.x              |

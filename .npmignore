@@ -1,0 +1,6 @@
+.cache/
+.idea/
+.github/
+
+.stylelintignore
+.stylelintrc
