@@ -14,7 +14,7 @@
 </p>
 
 
-##Versioning
+## Versioning
 
 | @vasbaz/bootstrap  | Original Bootstrap |
 | ------------------ | ------------------ |
