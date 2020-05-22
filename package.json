@@ -1,10 +1,10 @@
 {
   "name": "@vasbaz/bootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "npm-run-all copy-original-assets css",
     "css": "npm-run-all css-compile css-prefix css-minify",
-    "css-lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
+    "css-lint": "stylelint \"theme-scss/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 theme-scss/ -o dist/css/",
     "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/bootstrap.css\"",
     "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css",

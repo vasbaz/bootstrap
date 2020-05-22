@@ -18,7 +18,7 @@ $data-table-sm-card-padding: 3px !default;
 
 .data-table-header-row {
   display: table-header-group;
-  font-weight: $font-weight-bold;
+  font-weight: $headings-font-weight;
 }
 
 .data-table-row {
@@ -57,7 +57,7 @@ $data-table-sm-card-padding: 3px !default;
     border-bottom: none;
 
     &::before {
-      font-weight: $font-weight-bold;
+      font-weight: $headings-font-weight;
       content: attr(data-row);
     }
   }

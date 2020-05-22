@@ -9828,7 +9828,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .data-table-header-row {
   display: table-header-group;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .data-table-row {
@@ -9863,7 +9863,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-bottom: none;
   }
   .data-table-cell::before {
-    font-weight: 700;
+    font-weight: 500;
     content: attr(data-row);
   }
 }
