@@ -7,11 +7,13 @@ $data-table-main-border-radius: $border-radius-lg !default;
 
 $data-table-sm-card-padding: 3px !default;
 
+$data-table-cell-hover: $gray-100 !default;
 
 // Rules
 
 .data-table {
   display: table;
+  width: 100%;
   overflow: hidden;
   @include border-radius($data-table-main-border-radius);
 }
@@ -30,6 +32,15 @@ $data-table-sm-card-padding: 3px !default;
   padding: .75rem;
   background-color: $white;
   border-bottom: $data-table-border-width solid $data-table-border-color;
+  vertical-align: middle;
+  word-break: break-word;
+}
+
+.data-table-hoverable.data-table-row:hover {
+  .data-table-cell {
+    cursor: pointer;
+    background-color: $data-table-cell-hover;
+  }
 }
 
 @include media-breakpoint-down(sm) {

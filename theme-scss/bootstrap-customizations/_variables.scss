@@ -76,5 +76,9 @@ $nav-link-padding-y: .75rem !default;
 
 $navbar-light-color: $gray-500 !default;
 $navbar-light-hover-color: $gray-600 !default;
-$navbar-light-active-color: $gray-400 !default;
+$navbar-light-active-color: $secondary !default;
 $navbar-light-disabled-color: $gray-300 !default;
+
+// Modals
+
+$modal-backdrop-opacity: .7 !default;
