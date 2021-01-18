@@ -15,7 +15,7 @@ $hover-border-color: $gray-400 !default;
 .custom-control-input {
   &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
   &:focus:not(:checked) {
-    & ~ .custom-control-label::before {
+    ~ .custom-control-label::before {
       background-color: $gray-200;
       border-color: $custom-control-indicator-focus-border-color;
     }
@@ -28,7 +28,7 @@ $hover-border-color: $gray-400 !default;
   .custom-control-input {
     &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
     &:focus:not(:checked) {
-      & ~ .custom-control-label::after {
+      ~ .custom-control-label::after {
         background-image: escape-svg($custom-checkbox-indicator-icon-checked);
       }
     }
@@ -41,7 +41,7 @@ $hover-border-color: $gray-400 !default;
   .custom-control-input {
     &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
     &:focus:not(:checked) {
-      & ~ .custom-control-label::after {
+      ~ .custom-control-label::after {
         background-image: escape-svg($custom-radio-indicator-icon-checked);
       }
     }
@@ -54,7 +54,7 @@ $hover-border-color: $gray-400 !default;
   .custom-control-input {
     &:hover:not(:checked):not(:disabled):not(.disabled):not([disabled]),
     &:focus:not(:checked) {
-      & ~ .custom-control-label::before {
+      ~ .custom-control-label::before {
         background-color: $hover-border-color;
       }
     }

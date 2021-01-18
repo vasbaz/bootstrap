@@ -15,6 +15,7 @@ $data-table-cell-hover: $gray-100 !default;
   display: table;
   width: 100%;
   overflow: hidden;
+  table-layout: fixed;
   @include border-radius($data-table-main-border-radius);
 }
 
@@ -30,10 +31,10 @@ $data-table-cell-hover: $gray-100 !default;
 .data-table-cell {
   display: table-cell;
   padding: .75rem;
+  overflow-wrap: break-word;
+  vertical-align: middle;
   background-color: $white;
   border-bottom: $data-table-border-width solid $data-table-border-color;
-  vertical-align: middle;
-  word-break: break-word;
 }
 
 .data-table-hoverable.data-table-row:hover {
@@ -43,7 +44,7 @@ $data-table-cell-hover: $gray-100 !default;
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .data-table {
     display: flex;
     flex-direction: column;
